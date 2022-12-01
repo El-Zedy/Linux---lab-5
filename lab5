@@ -38,7 +38,7 @@ ______________________________________________________________________________
  	
  		∘ ls -R / | grep ".bash_profile"
  		 
- 	Second: sorts the output of ls command on / recursively, Saving their output and error in 2 different files and sending them to the 		background.
+ 	Second: sorts the output of ls command on / recursively, Saving their output and error in 2 different files and sending them to the background.
 
 		∘ ls -R 2> ~/errFile 1> ~/outputFile &
 
